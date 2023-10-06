@@ -1,0 +1,125 @@
+.container {
+  height: 100vh;
+}
+
+.background {
+  height: 100vh;
+  background-color: var(--negro);
+  width: 40%;
+}
+
+.modal {
+  position: absolute;
+  display: flex;
+  margin-left: 25%;
+  width: 50%;
+  height: 55%;
+  top: 25%;
+  box-shadow: 6px 5px 25px -1px rgba(0, 0, 0, 0.44);
+}
+
+.logo {
+  background-color: var(--negro);
+  height: 100%;
+  width: 30%;
+  box-shadow: -5px 4px 25px -1px rgba(165, 164, 164, 0.44);
+  align-items: center;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  user-select: none;
+  
+}
+
+.logo img {
+  margin-top: 40%;
+  width: 100%;
+}
+
+.titulo {
+  font-size: 20px;
+  user-select: none;
+  color: white;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 70%;
+  margin-top: 10%;
+  align-items: center;
+}
+
+.formulario label {
+  width: 80%;
+  margin-top: 15%;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: start;
+}
+
+.formulario input {
+  width: 80%;
+  margin-top: 20px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+}
+
+.formulario input:focus {
+  outline: none;
+}
+
+.formulario button {
+  border: none;
+  background-color: var(--negro);
+  height: 30px;
+  margin-top: 50px;
+  border-radius: 2px;
+  width: 100px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
+.formulario h2 {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: -40px;
+}
+
+.containerButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  transition: all 1s;
+
+
+}
+
+.containerButton button:first-of-type {
+  width: 20%;
+
+}
+
+.containerButton button:last-of-type {
+  background-color: transparent;
+  font-weight: bolder;
+  font-size: medium;
+  color: var(--grafito);
+  width: 60%;
+  text-align: center;
+}
+
+.formulario button:last-of-type:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
